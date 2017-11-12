@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color:
+}
+
+#titulo {
+
+}
+#titulo H1 {
+	font-size: 3em;
+	color: firebrick;
+	text-align: center;
+	text-shadow:
+		1px 1px 1px black,
+		-1px 1px 1px black,
+		1px -1px 1px black,
+		-1px -1px 1px black;
+}
+
+#menu {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background-color: firebrick;
+}
+
+#menu UL {
+	margin: auto;
+	text-align: center;
+}
+#menu UL LI {
+	margin: 3px;
+	padding: 2px 8px;
+	display: inline-block;
+	font-size: 22px;
+	background-color: orange;
+	border-radius: 0 5px 5px 0;
+}
+
+#menu UL LI:hover {
+	color:red;
+	background-color: darkcyan;
+	cursor: pointer;
+}
+
+#tituloMenu {
+	font-size: 38px;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+}
+
+
+#cajaContenido {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	background-color:darkseagreen
+}
+#contenido {
+	margin: auto;
+	padding: 0;
+	min-width: 380px;
+	max-width: 600px;
+	text-align: center;
+	background-color: white;
+}
+#contenido IMG {
+	width: 100%;
+}
+
+
+/*Beee*/
+#bee {
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 200;
+	top: 320px;
+	left: 30%;
+	padding: 30px;
+	border-radius:200px;
+	background: white;
+	border: 5px solid black;
+	box-shadow: 5px 5px 5px black;
+}
+
+FOOTER {
+	margin: 0;
+	padding: 10px 0;
+	width: 100%;
+	height: 140px;
+	color: darkseagreen;
+	background-color: black;
+	font-size: 24px;
+	text-align: center;
+	vertical-align: middle;
+}
